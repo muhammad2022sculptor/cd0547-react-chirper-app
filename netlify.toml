@@ -1,6 +1,6 @@
 [build]
   base = ""
-  command = "npx browserslist@latest --update-db npm run build"
+  command = "npx browserslist@latest --update-db && npm run build"
   publish = "build"
 
 [build.environment]
